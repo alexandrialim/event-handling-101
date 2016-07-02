@@ -5,23 +5,77 @@
 }
 body{
 	text-align: center;
+	background-color: white;
 }
 .title{
 	 background-color: #BAFDFF;
-	 padding:40px;
-	 font-family: "Helvetica";
+	 padding:20px;
+	 font-family: "Gabriola";
 	 color:black;
-	 height: 20px;
+	 height: 77.3px;
 	 text-align: center;
-	 font-size: 30px;
+	 border-style:double;
+     border-color: #ECCBD9;
+     border-spacing: 20px;
+     font-size: 50px;
+}
+.button:hover {background-color: #21A09E}
 
+.button{
+	background-color: #235FA0;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+	border-radius: 15px;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: "Gabriola";
+    padding:10px 25px;
+    position: relative;
+    transition: .5s ease;
+    top: 300px;
+    left: -300px;
+    right: 300px;
+    bottom: -250px;
 }
-.button {
-    border: none;
-    color: lightgreen;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+
+.button2:hover {background-color: #21A09E}
+
+.button2{
+	background-color: #235FA0;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+	border-radius: 15px;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: "Gabriola";
+    padding:10px 25px;
+    position: relative;
+    transition: .5s ease;
+    top: 300px;
+    left: 350px;
+    right: -300px;
+    bottom: -250px;
 }
+
+.button3:hover {background-color: #21A09E}
+
+.button3{
+	background-color: #235FA0;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+	border-radius: 15px;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: "Gabriola";
+    padding:10px 25px;
+    position: relative;
+    transition: .5s ease;
+    top: 300px;
+    left: -200px;
+    right: 400px;
+    bottom: -250px;
+}
+
